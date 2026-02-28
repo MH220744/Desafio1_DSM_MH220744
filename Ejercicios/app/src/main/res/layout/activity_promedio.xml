@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/t_promedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promedio del Estudiante"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/subt_promedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese el nombre y 5 notas (0 a 10)"
+            android:textSize="14sp"
+            android:alpha="0.75"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del estudiante"
+            android:inputType="textPersonName"
+            android:padding="14dp" />
+
+        <EditText
+            android:id="@+id/edNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 1"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="12dp"
+            android:padding="14dp" />
+
+        <TextView
+            android:id="@+id/t_peso_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ponderación: 10%"
+            android:textSize="12sp"
+            android:alpha="0.70"
+            android:paddingTop="4dp" />
+
+        <EditText
+            android:id="@+id/edNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 2"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="10dp"
+            android:padding="14dp" />
+
+        <TextView
+            android:id="@+id/t_peso_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ponderación: 15%"
+            android:textSize="12sp"
+            android:alpha="0.70"
+            android:paddingTop="4dp" />
+
+        <EditText
+            android:id="@+id/edNota3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 3"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="10dp"
+            android:padding="14dp" />
+
+        <TextView
+            android:id="@+id/t_peso_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ponderación: 20%"
+            android:textSize="12sp"
+            android:alpha="0.70"
+            android:paddingTop="4dp" />
+
+        <EditText
+            android:id="@+id/edNota4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 4"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="10dp"
+            android:padding="14dp" />
+
+        <TextView
+            android:id="@+id/t_peso_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ponderación: 25%"
+            android:textSize="12sp"
+            android:alpha="0.70"
+            android:paddingTop="4dp" />
+
+        <EditText
+            android:id="@+id/edNota5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 5"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="10dp"
+            android:padding="14dp" />
+
+        <TextView
+            android:id="@+id/t_peso_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ponderación: 30%"
+            android:textSize="12sp"
+            android:alpha="0.70"
+            android:paddingTop="4dp" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular promedio"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="14dp"
+            android:background="@android:color/darker_gray">
+
+            <TextView
+                android:id="@+id/tvResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resultado: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="6dp"
+                android:background="@android:color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpiar campos"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnVolverMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al menú"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+</ScrollView>

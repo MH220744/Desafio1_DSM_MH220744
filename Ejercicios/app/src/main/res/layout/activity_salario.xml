@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/t_salario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descuentos al Salario"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/subt_salario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese nombre y salario base para calcular AFP, ISSS y renta"
+            android:textSize="14sp"
+            android:alpha="0.75"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editar_nombre_empleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del empleado"
+            android:inputType="textPersonName"
+            android:padding="14dp" />
+
+        <EditText
+            android:id="@+id/editar_salario_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salario base ($)"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="10dp"
+            android:padding="14dp" />
+
+        <Button
+            android:id="@+id/boton_calcular_salario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular descuentos"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="14dp"
+            android:background="@android:color/darker_gray">
+
+            <TextView
+                android:id="@+id/t_detalle_salario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resultado: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:background="@android:color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_limpiar_salario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpiar campos"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btn_volver_menu_salario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al menú"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+</ScrollView>

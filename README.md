@@ -12,4 +12,4 @@
 
 ## Video demostración
 
-🔗 https://youtube.com/shorts/wyMe9i92T5E?si=T7YjBGnHDEzHMCzP
+🔗 https://youtu.be/jRNnXI9XGXE?si=2UWmZejOhqwAOgB0
